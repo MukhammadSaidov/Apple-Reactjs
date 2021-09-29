@@ -1,0 +1,260 @@
+.Mac {
+    height: auto;
+}
+
+.Mac .top .item {
+    text-align: center;
+    font-weight: 10;
+    cursor: pointer;
+}
+.Mac .top .item h6 {
+    font-weight: 100;
+}
+.Mac .top .item h6:hover {
+    color: #2997FF;
+}
+
+.Mac  .topFooter {
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    display: flex;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+}
+
+.Mac  .topFooter span {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.Mac  .topFooter a {
+    color: #2997FF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Mac  .topFooter a:hover {
+    text-decoration: underline;
+}
+
+.Mac .iMac {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.apple.com/v/mac/home/bi/images/overview/hero_imac_24__eq5phrdpwjyq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center  78%;
+}
+
+.Mac .iMac .text {
+    height: 240px;
+    width: 130px;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.Mac .iMac .text h6 {
+    font-size: 17px;
+    width: 38px;
+    padding-top: 25px;
+    margin-left: 45px;
+    height: 26px;
+    color: #F56301;
+    font-weight: 600;
+}
+
+.Mac .iMac .text h3 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Mac .iMac .text h4 {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    margin-left: -125px;
+    margin-top: -7px;
+}
+
+.Mac .iMac .text h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.Mac .iMac .text button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #0071E3;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.Mac .iMac .text button:hover {
+    background-color: #157de6;
+}
+
+.Mac .iMac .text a{
+    text-decoration: none;
+    color: #287ED3;
+    font-size: 18px;
+}
+
+.Mac .iMac .text a:hover{
+    text-decoration: underline;
+}
+
+.Desktop_filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Desktop_filter .title a {
+    margin-left: 100px;
+}
+
+.Desktop_filter .filter_name {
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+.Desktop_filter .filter_name::after {
+    content: '';
+    position: absolute;
+    width: 85%;
+    left: -3px;
+    height: 1px;
+    background-color: #D2D2D7;
+    bottom: -10px;
+}
+
+.Desktop_filter .filter_name h4 {
+    margin-right: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Desktop_filter .filter_name h4:first-child:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: -3px;
+    background-color: #000;
+    bottom: -20px;
+    z-index: 1;
+}
+.Notebooks  {
+    display: flex;
+    margin-top: 50px;
+}
+.Notebooks .Macbook .Macbook_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-right: 30px;
+}
+
+.Notebooks .Macbook .Macbook_item::after {
+    position: absolute; 
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #D2D2D7;
+    bottom: -20px;
+}
+
+.Notebooks .Macbook .Macbook_item .colors {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Notebooks .Macbook .Macbook_item .color_one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.Notebooks .Macbook .Macbook_item .color_two{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #B1B2B7;
+    margin: 0 10px;
+}
+
+.Notebooks .Macbook .Macbook_item .color_three{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E3CCB5;
+}
+
+.Notebooks .Macbook .Macbook_item button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #0071E3;
+}
+
+
+.Macbook_info {
+    margin-top: 50px;
+    position: relative;
+}
+.Macbook_info .display ,.Macbook_info .chip, .Macbook_info .battery , .Macbook_info .camera, .Macbook_info .storage, .Macbook_info .weight, .Macbook_info .touch {
+    margin-bottom: 30px;
+}
+
+.Macbook_info .display,  .Macbook_info .chip, .Macbook_info .memory, .Macbook_info .storage, .Macbook_info .battery, .Macbook_info .camera, .Macbook_info .weight, .Macbook_info .touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Macbook_info .memory p {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.Macbook_info .camera p {
+    width: 200px;
+    color: #96969A;
+} 
+
+.Macbook_info .touch {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.Macbook_info .touch::after {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 1px;
+    background-color: #D2D2D7;
+    bottom: -50px;
+}
+.Macbook_footer {
+    margin-bottom: 100px;
+}
+.Macbook_footer a:first-child {
+    margin-left: -500px;
+}
+
+.Macbook_footer a:nth-child(2) {
+   margin: 0 220px;
+}
+
+

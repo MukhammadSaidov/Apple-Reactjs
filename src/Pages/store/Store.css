@@ -1,0 +1,310 @@
+/* iPad */
+
+.iPad_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.iPad_item {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #D6ECDE, #A6D7F0);
+    width: 1100px;
+    height: 500px;
+    padding: 0 40px;
+}
+.iPad_texts {
+    margin: 40px;
+}
+.iPad_texts h4 {
+    font-weight: 600;
+    color: #BF4800;
+}
+
+.iPad_texts h2 {
+    font-weight: 600;
+    color: #000;
+    width: 250px;
+}
+.iPad_texts p {
+    width: 195px;
+    color: #363736;
+    font-weight: 500;
+}
+
+/* MacIpad */
+
+.MacIpad {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+}
+.MacIpad::after {
+    position: absolute;
+    content: '';
+    bottom: -50px;
+    width: 1350px;
+    top: 250px;
+    left: 280px;
+    right: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+.MacIpad  h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.MacIpad  h4 {
+    font-weight: 500;
+    color: rgb(82, 80, 80);
+}
+
+.Title {
+    margin-top: 30px;
+}
+
+.Title h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+
+.Title p {
+    font-size: 20px;
+    color: #333;
+}
+
+/* AppleCatalog */
+
+.AppleCatalog  {
+    margin-top: 100px;
+}
+.AppleCatalog .Title {
+    text-align: center;
+}
+
+.Container {
+    cursor: pointer;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 410px;
+    transition: all .4s ease;
+}
+.Items:hover {
+    background-color: #ebe9e9;
+}
+
+.Items {
+    margin: 8px;
+    width: 350px;
+    height: 350px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MacBook {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1085px;
+    margin-left: 417px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.MacBook .text h2{
+    width: 400px;
+    font-size: 40px;
+    color: #000;
+}
+
+.MacBook .text p {
+    font-size: 17px;
+    width: 255px;
+}
+.MacBook .text a {
+    font-size: 17px;
+}
+
+
+.Content {
+    height: 200px;
+    margin-left: 555px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.Content .item  {
+    margin-right: 150px;
+}
+.Content .item a:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    transition: all .2s ease;
+    line-height: 50px;
+}
+.Content a:first-child:hover {
+    color: #0070c9;
+}
+
+.Content p {
+    color: rgb(66, 66, 66);
+}
+
+.products_container {
+    position: relative;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.products_container .text_one {
+    position: absolute;
+    top: 135px;
+    right: 50px;
+    margin-bottom: 10px;
+}
+
+.products_container .text_two {
+    position: relative;
+    background-color: #000;
+    width: 1068px;
+    height: 500px;
+}
+
+.products_container .text_two .image {
+    position: absolute;
+    right: 50px;
+    top: 91px;
+}
+
+.products_container .text_two .texts {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.products_container .text_two .texts h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.products_container .text_two .texts button {
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #DA0F47;
+    color: #fff;
+}
+
+.products_container .text_two .texts a {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    font-size: 18px;
+}
+.products_container .text_three {
+    background: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-college-education-202103?wid=1070&hei=480&fmt=png-alpha&.v=1614970562000) no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1068px;
+    position: relative;
+}
+.products_container .text_three .text_end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    color: #fff;
+}
+
+.products_container .text_three .text_end h2 {
+    font-size: 40px;
+    line-height: 1.05;
+    color: #fff;
+}
+
+.products_container .text_three .text_end  p {
+    font-size: 18px;
+}
+
+.products_container .text_three .text_end a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.collection {
+    margin-top: 100px;
+}
+.collection, .collection .text_collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.collection .text_collection {
+    margin-top: 15px;
+}
+.collection .text_collection h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.collection .text_collection p {
+    width: 450px;
+    font-size: 16px;
+    color: rgb(97, 96, 96);
+}
+
+.collection .text_collection a {
+    font-size: 17px;
+}
+
+.image_wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.image_wrapper .image_end img {
+    margin-top: 50px;
+    width: 1065px;
+}
+
+.image_wrapper .image_text {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 250px;
+    width: 1065px;
+}
+
+.image_wrapper .image_text h2 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.image_wrapper .image_text p {
+    font-size: 18px;
+}
+
+.image_wrapper .image_text a {
+    font-size: 17px;
+}

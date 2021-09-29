@@ -1,0 +1,206 @@
+.home{
+    height: auto;
+    background-color: #FFFFFF;
+}
+.home .iphone {
+    width: 100% ;
+    height: auto;
+}
+.iphone .itemIphone{
+    background-image: url(https://www.apple.com/v/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_mediumtall.jpg);
+    background-size: 60% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    padding-top: -2vh;
+    background-color: #FBFBFD;
+}
+
+.iphone .itemIphone:nth-child(2){
+    background-image:  url(https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large.jpg);
+    background-color: #000000;
+    background-size: 200% 120%;
+    background-position: 50%  60%;
+    height: 80vh;
+}
+
+.iphone .itemIphone:nth-child(3){
+    background-image:  url(https://newtime.com.ua/image/catalog/ipad/iPad-Pro-2021/ipad-pro-opisanie/5.jpg);
+    background-color: #000000;
+    background-size: 65% 95%;
+    background-position: 50%   400%;
+    height: 80vh;
+}
+
+.iphone .itemIphone .content{
+    height: 30vh;
+    width: 29vw;
+    margin-top: 7vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.iphone .itemIphone .content h2 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: -2px;
+    color: #FFFFFF ;
+}
+.iphone .itemIphone .content h6 {
+    font-size: 28px;
+    margin: -5px 0px 3px 0px;
+    color: rgb(70, 73, 77);
+    line-height: 15px;
+}
+.iphone .itemIphone .content span{
+    font-size: 19px;
+    color: #a7a7a7;
+    margin-top: -3px;
+    font-weight: 200;
+}
+.iphone .itemIphone .content span:nth-child(4){
+    font-size: 19px;
+}
+
+
+.iphone .itemIphone:nth-child(1) .content h2{
+    color: #26292c ;
+}
+.iphone .itemIphone:nth-child(2) .content h6{
+    color: aliceblue;
+}
+.iphone .itemIphone:nth-child(3) .content h3{
+    color: rgb(215, 217, 219);
+    margin-top: -65px;  
+    font-size: 28px; 
+}
+.iphone .itemIphone:nth-child(3) .content span{
+    display: none;
+}
+.iphone .itemIphone:nth-child(3) .content .link{
+    margin-top: -60px; 
+}
+
+
+.iphone .itemIphone .content .link a , .home .category .itemCategory .content .link a{
+    color: #2997FF;
+    text-decoration: none;
+    font-size: 23px;
+}
+.iphone .itemIphone .content .link a:hover , .home .category .itemCategory .content .link a:hover{
+    text-decoration: underline;
+}
+.iphone .itemIphone .content .link a:nth-child(1):hover , .home .category .itemCategory .content .link a:nth-child(1):hover {
+    text-decoration: underline;
+}
+.iphone .itemIphone .content .link a:nth-child(1) , .home .category .itemCategory .content .link a:nth-child(1){
+    padding-right: 20px;
+    color: #2997FF;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------- */
+/* ////////////////////////////////////////////////////////////// */
+/* -------------------------------------------------------------- */
+
+.home .category{
+    padding: 0 20px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home .category .itemCategory{
+    height: 582px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    margin: 8px;
+    background-position: 50% 50%    ;
+}
+.home .category .itemCategory:nth-child(1){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/imac/promo_imac__crg641tip4q6_large.jpg);
+}
+.home .category .itemCategory:nth-child(2){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg);
+}
+.home .category .itemCategory:nth-child(3){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+.home .category .itemCategory:nth-child(4){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/back-to-school-2021/promo_bts__bg3cb4kaoqoi_large.jpg);
+}
+.home .category .itemCategory:nth-child(5){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+}
+.home .category .itemCategory:nth-child(6){
+    background-image: url(https://www.apple.com/v/home/ab/images/promos/tv-plus-stillwater-s1b/tile_stillwater__bkfeir33i5ci_large.jpg);
+}
+
+
+.home .category .itemCategory .content{
+    margin-top: -370px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.home .category .itemCategory:nth-child(6) .content{
+    margin-top: 350px;
+}
+.home .category .itemCategory .content h2{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+}
+.home .category .itemCategory .content h6{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.home .category .itemCategory:nth-child(2) .content h6{
+    color: #e7e2e2;
+}
+
+
+.home .category .itemCategory .content .imgContent img:nth-child(2){
+    display: none;
+}
+.home .category .itemCategory:nth-child(1) .content .imgContent , .home .category .itemCategory:nth-child(4) .content .imgContent{
+    display: none;
+}
+.home .category .itemCategory:nth-child(6) .content .imgContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+.home .category .itemCategory:nth-child(6) .content .imgContent img:nth-child(2){
+    display: block;
+    margin-top: 3vh;
+}
+
+
+.home .category .itemCategory .content .link a{
+    font-size: 20px;
+}
+.home .category .itemCategory:nth-child(6) .content .link a{
+    color: white;
+    padding-right: 2vw;
+}
+.home .category .itemCategory .content .link {
+    padding-top: 10px;
+}
+.home .category .itemCategory:nth-child(4) .content .link{
+    padding-top: 0px ; 
+}
